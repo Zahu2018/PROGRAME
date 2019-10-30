@@ -1,4 +1,4 @@
-"""ANO-TEST."""
+"""ANO."""
 
 
 import urllib.request
