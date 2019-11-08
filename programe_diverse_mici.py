@@ -44,5 +44,9 @@ start = time.perf_counter()  # best on windows: time.perf_counter()
 # print(time.perf_counter() - start)  # time is in seconds
 # -----------------------------------------------
 
-
+# ['collocation', 'clasament', 'dictionar', 'ordered']
+from collections import OrderedDict, Counter
+x = OrderedDict(a=1, b=2, c=3)
+y = Counter("Hello World!")  # count frequency of each char
+# -----------------------------------------------
 
