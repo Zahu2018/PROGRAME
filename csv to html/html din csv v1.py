@@ -1,3 +1,6 @@
+# CREAZA O PAGINA HTML CU UN TABEL CU DATE
+# PROVENITE DINTR-UN FISIER CSV
+
 import csv         # to read csv file
 import webbrowser  # to open html created
 
