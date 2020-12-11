@@ -19,7 +19,9 @@ import os
  'Usage': '.',
  'Version': '1.0.0'}
 """
-
+# =========================================
+# Code to inject begin here
+# =========================================
 code_to_inject = '''"""TITLE OF FILE."""
 
 import os
@@ -41,7 +43,9 @@ import os
  'Usage': '.',
  'Version': 'major.minor.patch'}
 """'''
-
+# =========================================
+# Code to inject end here
+# =========================================
 fisiere = os.listdir()
 for fila in fisiere:
     if fila == "inject_code.py" or "." not in fila:
